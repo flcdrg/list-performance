@@ -8,6 +8,7 @@ namespace ListPerformance
 {
     [SimpleJob(RuntimeMoniker.NetCoreApp31)]
     [SimpleJob(RuntimeMoniker.Net50)]
+    [SimpleJob(RuntimeMoniker.Net60)]
     public class ListvSorted
     {
         private readonly List<string> _list;
