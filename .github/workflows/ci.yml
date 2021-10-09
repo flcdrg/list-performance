@@ -44,3 +44,6 @@ jobs:
           
       - name: Build
         run: dotnet build -c Release
+
+      - name: Run
+        run: ./ListPerformance/bin/Release/net50/ListPerformance
